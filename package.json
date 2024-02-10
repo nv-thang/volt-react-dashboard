@@ -2,7 +2,7 @@
   "name": "@themesberg/volt-react-dashboard",
   "description": "Volt React Dashboard is a free and open source admin dashboard template powered by React.js and Bootstrap 5",
   "author": "Themesberg",
-  "homepage": "https://nv-thang.github.io/ci-cd-iot/" ,
+  "homepage": "https://nv-thang.github.io/volt-react-dashboard/" ,
   "keywords": [
     "bootstrap 5",
     "react",
@@ -55,7 +55,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build",
+    "build": "CI=false && react-scripts build",
     "build-local": "PUBLIC_URL=./ react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
